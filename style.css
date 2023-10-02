@@ -1,0 +1,29 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+#rect{
+    height: 50vh;
+    width: 60vw;
+    transform: translate(30%,45%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 2rem;
+}
+.imageDiv{
+    height: 170px;
+    width: 100px;
+    position: absolute;
+    overflow: hidden;
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+}
